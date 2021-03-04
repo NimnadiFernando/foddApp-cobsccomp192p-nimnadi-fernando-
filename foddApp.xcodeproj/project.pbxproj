@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5181C8FB112A3598B88428FD /* Pods_foddApp_foddAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EF0A58B53BF313B37436A1 /* Pods_foddApp_foddAppUITests.framework */; };
+		845D12F925F00B18004035E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D12F825F00B18004035E0 /* HomeViewController.swift */; };
+		845D130625F00DE8004035E0 /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D130525F00DE8004035E0 /* Constrants.swift */; };
 		847EE59025EF855C009BFDC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE58F25EF855C009BFDC2 /* AppDelegate.swift */; };
 		847EE59225EF855C009BFDC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE59125EF855C009BFDC2 /* SceneDelegate.swift */; };
 		847EE59425EF855C009BFDC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE59325EF855C009BFDC2 /* ViewController.swift */; };
@@ -15,6 +18,13 @@
 		847EE59C25EF855D009BFDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EE59A25EF855D009BFDC2 /* LaunchScreen.storyboard */; };
 		847EE5A725EF855D009BFDC2 /* foddAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE5A625EF855D009BFDC2 /* foddAppTests.swift */; };
 		847EE5B225EF855D009BFDC2 /* foddAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE5B125EF855D009BFDC2 /* foddAppUITests.swift */; };
+		847EE5C325EF8940009BFDC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 847EE5C225EF8940009BFDC2 /* GoogleService-Info.plist */; };
+		847EE5C425EF8940009BFDC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 847EE5C225EF8940009BFDC2 /* GoogleService-Info.plist */; };
+		847EE5C525EF8940009BFDC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 847EE5C225EF8940009BFDC2 /* GoogleService-Info.plist */; };
+		847EE5E225EFB88E009BFDC2 /* SingupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE5E125EFB88E009BFDC2 /* SingupViewController.swift */; };
+		84DD121D25EFC027008D2559 /* LogingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD121C25EFC027008D2559 /* LogingViewController.swift */; };
+		B01D8BB9F63E2C6B3610657F /* Pods_foddAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACCF37C40F60DDF89E09949 /* Pods_foddAppTests.framework */; };
+		B0F746B0EFE52B4B8E548DCA /* Pods_foddApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475805BC4E551E294D4306D8 /* Pods_foddApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		413C6581B3BB8E2347F8151C /* Pods-foddApp-foddAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddApp-foddAppUITests.release.xcconfig"; path = "Target Support Files/Pods-foddApp-foddAppUITests/Pods-foddApp-foddAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		475805BC4E551E294D4306D8 /* Pods_foddApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foddApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACCF37C40F60DDF89E09949 /* Pods_foddAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foddAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D12F825F00B18004035E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		845D130525F00DE8004035E0 /* Constrants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
 		847EE58C25EF855C009BFDC2 /* foddApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foddApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847EE58F25EF855C009BFDC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847EE59125EF855C009BFDC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		847EE5AD25EF855D009BFDC2 /* foddAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foddAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847EE5B125EF855D009BFDC2 /* foddAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foddAppUITests.swift; sourceTree = "<group>"; };
 		847EE5B325EF855D009BFDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847EE5C225EF8940009BFDC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		847EE5E125EFB88E009BFDC2 /* SingupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupViewController.swift; sourceTree = "<group>"; };
+		84DD121C25EFC027008D2559 /* LogingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogingViewController.swift; sourceTree = "<group>"; };
+		87EF0A58B53BF313B37436A1 /* Pods_foddApp_foddAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foddApp_foddAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65918EDEF0264E7210CD8CC /* Pods-foddAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddAppTests.release.xcconfig"; path = "Target Support Files/Pods-foddAppTests/Pods-foddAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D442DC705558EC08F4A8FA1D /* Pods-foddAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddAppTests.debug.xcconfig"; path = "Target Support Files/Pods-foddAppTests/Pods-foddAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71BA0022FD0097BB37121D7 /* Pods-foddApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddApp.debug.xcconfig"; path = "Target Support Files/Pods-foddApp/Pods-foddApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBBD2CBE999965228189865 /* Pods-foddApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddApp.release.xcconfig"; path = "Target Support Files/Pods-foddApp/Pods-foddApp.release.xcconfig"; sourceTree = "<group>"; };
+		F92BB3F70C50791CFA01D9DB /* Pods-foddApp-foddAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddApp-foddAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-foddApp-foddAppUITests/Pods-foddApp-foddAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F746B0EFE52B4B8E548DCA /* Pods_foddApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01D8BB9F63E2C6B3610657F /* Pods_foddAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5181C8FB112A3598B88428FD /* Pods_foddApp_foddAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B40183F6A442B0C7B3BDE72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D71BA0022FD0097BB37121D7 /* Pods-foddApp.debug.xcconfig */,
+				DEBBD2CBE999965228189865 /* Pods-foddApp.release.xcconfig */,
+				F92BB3F70C50791CFA01D9DB /* Pods-foddApp-foddAppUITests.debug.xcconfig */,
+				413C6581B3BB8E2347F8151C /* Pods-foddApp-foddAppUITests.release.xcconfig */,
+				D442DC705558EC08F4A8FA1D /* Pods-foddAppTests.debug.xcconfig */,
+				A65918EDEF0264E7210CD8CC /* Pods-foddAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		847EE58325EF855C009BFDC2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				847EE5A525EF855D009BFDC2 /* foddAppTests */,
 				847EE5B025EF855D009BFDC2 /* foddAppUITests */,
 				847EE58D25EF855C009BFDC2 /* Products */,
+				1B40183F6A442B0C7B3BDE72 /* Pods */,
+				D86FEBA14CCEC0C2B4C1DE52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +141,13 @@
 		847EE58E25EF855C009BFDC2 /* foddApp */ = {
 			isa = PBXGroup;
 			children = (
+				84DD122125EFC16D008D2559 /* Helepers */,
+				847EE5E625EFB8CE009BFDC2 /* viewControllers */,
 				847EE58F25EF855C009BFDC2 /* AppDelegate.swift */,
 				847EE59125EF855C009BFDC2 /* SceneDelegate.swift */,
-				847EE59325EF855C009BFDC2 /* ViewController.swift */,
 				847EE59525EF855C009BFDC2 /* Main.storyboard */,
 				847EE59825EF855D009BFDC2 /* Assets.xcassets */,
+				847EE5C225EF8940009BFDC2 /* GoogleService-Info.plist */,
 				847EE59A25EF855D009BFDC2 /* LaunchScreen.storyboard */,
 				847EE59D25EF855D009BFDC2 /* Info.plist */,
 			);
@@ -128,6 +172,35 @@
 			path = foddAppUITests;
 			sourceTree = "<group>";
 		};
+		847EE5E625EFB8CE009BFDC2 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84DD121C25EFC027008D2559 /* LogingViewController.swift */,
+				847EE59325EF855C009BFDC2 /* ViewController.swift */,
+				847EE5E125EFB88E009BFDC2 /* SingupViewController.swift */,
+				845D12F825F00B18004035E0 /* HomeViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		84DD122125EFC16D008D2559 /* Helepers */ = {
+			isa = PBXGroup;
+			children = (
+				845D130525F00DE8004035E0 /* Constrants.swift */,
+			);
+			path = Helepers;
+			sourceTree = "<group>";
+		};
+		D86FEBA14CCEC0C2B4C1DE52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				475805BC4E551E294D4306D8 /* Pods_foddApp.framework */,
+				87EF0A58B53BF313B37436A1 /* Pods_foddApp_foddAppUITests.framework */,
+				5ACCF37C40F60DDF89E09949 /* Pods_foddAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847EE5B625EF855D009BFDC2 /* Build configuration list for PBXNativeTarget "foddApp" */;
 			buildPhases = (
+				1159CD409555A5DCA4625CF6 /* [CP] Check Pods Manifest.lock */,
 				847EE58825EF855C009BFDC2 /* Sources */,
 				847EE58925EF855C009BFDC2 /* Frameworks */,
 				847EE58A25EF855C009BFDC2 /* Resources */,
+				DA7FF8BDB79068F82A8C6031 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847EE5B925EF855D009BFDC2 /* Build configuration list for PBXNativeTarget "foddAppTests" */;
 			buildPhases = (
+				9561364F75163B62B0B49C15 /* [CP] Check Pods Manifest.lock */,
 				847EE59E25EF855D009BFDC2 /* Sources */,
 				847EE59F25EF855D009BFDC2 /* Frameworks */,
 				847EE5A025EF855D009BFDC2 /* Resources */,
@@ -170,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 847EE5BC25EF855D009BFDC2 /* Build configuration list for PBXNativeTarget "foddAppUITests" */;
 			buildPhases = (
+				5F0E005A39219DF344A43AB9 /* [CP] Check Pods Manifest.lock */,
 				847EE5A925EF855D009BFDC2 /* Sources */,
 				847EE5AA25EF855D009BFDC2 /* Frameworks */,
 				847EE5AB25EF855D009BFDC2 /* Resources */,
+				D58F75DAF6011EF415BD334D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				847EE59C25EF855D009BFDC2 /* LaunchScreen.storyboard in Resources */,
+				847EE5C325EF8940009BFDC2 /* GoogleService-Info.plist in Resources */,
 				847EE59925EF855D009BFDC2 /* Assets.xcassets in Resources */,
 				847EE59725EF855C009BFDC2 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847EE5C425EF8940009BFDC2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +328,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847EE5C525EF8940009BFDC2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1159CD409555A5DCA4625CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foddApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0E005A39219DF344A43AB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foddApp-foddAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9561364F75163B62B0B49C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foddAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58F75DAF6011EF415BD334D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foddApp-foddAppUITests/Pods-foddApp-foddAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foddApp-foddAppUITests/Pods-foddApp-foddAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foddApp-foddAppUITests/Pods-foddApp-foddAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7FF8BDB79068F82A8C6031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foddApp/Pods-foddApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foddApp/Pods-foddApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foddApp/Pods-foddApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		847EE58825EF855C009BFDC2 /* Sources */ = {
@@ -260,7 +444,11 @@
 			files = (
 				847EE59425EF855C009BFDC2 /* ViewController.swift in Sources */,
 				847EE59025EF855C009BFDC2 /* AppDelegate.swift in Sources */,
+				847EE5E225EFB88E009BFDC2 /* SingupViewController.swift in Sources */,
+				845D130625F00DE8004035E0 /* Constrants.swift in Sources */,
 				847EE59225EF855C009BFDC2 /* SceneDelegate.swift in Sources */,
+				84DD121D25EFC027008D2559 /* LogingViewController.swift in Sources */,
+				845D12F925F00B18004035E0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +621,7 @@
 		};
 		847EE5B725EF855D009BFDC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BA0022FD0097BB37121D7 /* Pods-foddApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +640,7 @@
 		};
 		847EE5B825EF855D009BFDC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBBD2CBE999965228189865 /* Pods-foddApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +659,7 @@
 		};
 		847EE5BA25EF855D009BFDC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D442DC705558EC08F4A8FA1D /* Pods-foddAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +681,7 @@
 		};
 		847EE5BB25EF855D009BFDC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65918EDEF0264E7210CD8CC /* Pods-foddAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +703,7 @@
 		};
 		847EE5BD25EF855D009BFDC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92BB3F70C50791CFA01D9DB /* Pods-foddApp-foddAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +723,7 @@
 		};
 		847EE5BE25EF855D009BFDC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413C6581B3BB8E2347F8151C /* Pods-foddApp-foddAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
