@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LogingViewController: UIViewController {
     
@@ -45,6 +46,13 @@ class LogingViewController: UIViewController {
     
     
     @IBAction func LogingBtnAc(_ sender: Any) {
+        
+        let email = EmailText.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = PasswordText.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            <#code#>
+        }
     }
     
     
