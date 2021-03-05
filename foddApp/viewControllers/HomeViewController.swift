@@ -8,7 +8,16 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    
+    
+    
+    var Food = ["Chili Burger","Wild Salmon","Veggie Burger","Black Bean Burger","Bison Burgers"]
+   
+  
+    @IBOutlet weak var tableView: UITableView!
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,3 +36,4 @@ class HomeViewController: UIViewController {
     */
 
 }
+

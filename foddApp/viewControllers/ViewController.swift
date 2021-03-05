@@ -9,6 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    var name = ["nimnadi fernando", "tinhy phatuge", "Jananani Bannaka", "Avishka Baalsuriya", "Lasitha Silva", "Chathura Bannaka","Crash Number1", "crash Number2" ]
+    
+    
+    @IBOutlet weak var tableview: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
      //   SingupViewController()
@@ -18,3 +23,15 @@ class ViewController: UIViewController {
 
 }
 
+
+extension ViewController:UITableViewDelegate,UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return name.count
+    }
+    
+  
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return name.count
+    }
+}
