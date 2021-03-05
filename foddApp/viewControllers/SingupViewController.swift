@@ -24,13 +24,13 @@ class SingupViewController: UIViewController {
     
     @IBOutlet weak var RegisterBtn: UIButton!
     
-    @IBOutlet weak var LogingBtn: UIButton!
-    
+   
     
     @IBOutlet weak var ForgetBtn: UIButton!
     
     
     @IBOutlet weak var Errorlbl: UILabel!
+    @IBOutlet weak var LogingBtnO: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -129,6 +129,11 @@ func ShowError(_ message: String){
 }
     
 func LogingBtnAc(_ sender: Any) {
+       
+   
+    
+    
+    
     }
     
 func ForgetBtnAc(_ sender: Any) {

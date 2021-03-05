@@ -46,12 +46,24 @@ class LogingViewController: UIViewController {
     
     
     @IBAction func LogingBtnAc(_ sender: Any) {
-        
+    
         let email = EmailText.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         let password = PasswordText.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
-            <#code#>
+            
+            if error != nil{
+                self.ErrorLbl.text = error!.localizedDescription
+                self.ErrorLbl.alpha = 1
+                
+            }else{
+                let homeViewController =
+                    self.storyboard?.instantiateViewController(withIdentifier: Constrants.Stroyboard.homeViewController)as?
+                HomeViewController
+                
+                self.view.window?.rootViewController = homeViewController
+                self.view.window?.makeKeyAndVisible()
+            }
         }
     }
     

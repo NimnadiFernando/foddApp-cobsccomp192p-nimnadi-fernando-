@@ -45,6 +45,11 @@
                                     <segue destination="SBi-Nm-ebv" kind="show" id="F81-gb-DET"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evW-ln-bVo">
+                                <rect key="frame" x="142" y="432" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="llutton"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,12 +120,11 @@
                                         <color key="textColor" systemColor="systemPinkColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pM-he-wat">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIU-1b-UlJ">
                                         <rect key="frame" x="0.0" y="368.5" width="295" height="30"/>
-                                        <state key="normal" title="LOGING?"/>
+                                        <state key="normal" title="Loging "/>
                                         <connections>
-                                            <action selector="LogingBtnAc:" destination="SBi-Nm-ebv" eventType="touchUpInside" id="fFS-bn-TEV"/>
-                                            <segue destination="cnX-JX-hxI" kind="show" id="BPY-Ke-jGe"/>
+                                            <segue destination="cnX-JX-hxI" kind="show" id="jdS-C1-ooY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rl-cD-KT3">
@@ -152,7 +156,7 @@
                         <outlet property="EmailText" destination="phc-xh-B3I" id="yOe-zm-zTv"/>
                         <outlet property="Errorlbl" destination="w5m-hx-eE7" id="qgM-DF-CAG"/>
                         <outlet property="ForgetBtn" destination="8rl-cD-KT3" id="fGh-Fh-vcx"/>
-                        <outlet property="LogingBtn" destination="7pM-he-wat" id="vtd-2p-uGH"/>
+                        <outlet property="LogingBtnO" destination="dIU-1b-UlJ" id="4Er-Co-4dT"/>
                         <outlet property="PasswordText" destination="xEs-1A-gPZ" id="8MR-zQ-hHY"/>
                         <outlet property="PhoneText" destination="FaL-Oy-UKb" id="rRk-Px-iBq"/>
                         <outlet property="RegisterBtn" destination="Ful-io-AfF" id="ErS-I2-uWh"/>
@@ -169,13 +173,6 @@
                     <view key="view" contentMode="scaleToFill" id="Bxv-h8-eWz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HxZ-IM-T6p">
-                                <rect key="frame" x="164" y="281" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="cQ5-eT-2eF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -188,7 +185,7 @@
         <!--Loging View Controller-->
         <scene sceneID="CRP-GF-6p4">
             <objects>
-                <viewController id="cnX-JX-hxI" customClass="LogingViewController" customModule="foddApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogingVc" id="cnX-JX-hxI" customClass="LogingViewController" customModule="foddApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cB6-v8-h9N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
