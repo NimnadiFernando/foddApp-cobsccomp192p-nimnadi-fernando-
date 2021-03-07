@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5181C8FB112A3598B88428FD /* Pods_foddApp_foddAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EF0A58B53BF313B37436A1 /* Pods_foddApp_foddAppUITests.framework */; };
+		844F108225F5448E0038A7B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F108125F5448E0038A7B4 /* DetailViewController.swift */; };
 		845D12F925F00B18004035E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D12F825F00B18004035E0 /* HomeViewController.swift */; };
 		845D130625F00DE8004035E0 /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D130525F00DE8004035E0 /* Constrants.swift */; };
 		8476BF2F25F0B27600A902C2 /* Loging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476BF2E25F0B27600A902C2 /* Loging.swift */; };
@@ -50,6 +51,7 @@
 		413C6581B3BB8E2347F8151C /* Pods-foddApp-foddAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foddApp-foddAppUITests.release.xcconfig"; path = "Target Support Files/Pods-foddApp-foddAppUITests/Pods-foddApp-foddAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		475805BC4E551E294D4306D8 /* Pods_foddApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foddApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACCF37C40F60DDF89E09949 /* Pods_foddAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foddAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844F108125F5448E0038A7B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		845D12F825F00B18004035E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		845D130525F00DE8004035E0 /* Constrants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
 		8476BF2E25F0B27600A902C2 /* Loging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loging.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				847EE59A25EF855D009BFDC2 /* LaunchScreen.storyboard */,
 				847EE59D25EF855D009BFDC2 /* Info.plist */,
 				84AD67BA25F2523B00A5F19B /* CellTableViewCell.swift */,
+				844F108125F5448E0038A7B4 /* DetailViewController.swift */,
 			);
 			path = foddApp;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				847EE59225EF855C009BFDC2 /* SceneDelegate.swift in Sources */,
 				84DD121D25EFC027008D2559 /* LogingViewController.swift in Sources */,
 				84AD67BB25F2523B00A5F19B /* CellTableViewCell.swift in Sources */,
+				844F108225F5448E0038A7B4 /* DetailViewController.swift in Sources */,
 				845D12F925F00B18004035E0 /* HomeViewController.swift in Sources */,
 				8476BF2F25F0B27600A902C2 /* Loging.swift in Sources */,
 			);
